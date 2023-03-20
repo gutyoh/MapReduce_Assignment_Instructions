@@ -1,13 +1,18 @@
 name: Build docs
 
 on:
-  # To trigger the workflow once you push to the `main` branch
+  # If specified, the workflow will be triggered automatically
+  # once you push to the `main` branch.
   # Replace `main` with your branch’s name
   push:
     branches: ["main"]
-
-  #To run the workflow manually from the Actions tab on GitHub.
+  # Specify to run a workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
+
+# Gives the workflow permissions to clone the repo and create a page deployment
+permissions:
+  id-token: write
+  pages: write
 
 env:
   PRODUCT: map_reduce_hw/m
