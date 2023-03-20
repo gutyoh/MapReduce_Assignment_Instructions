@@ -52,15 +52,19 @@ Then, the bottom 5 items are `43, 12, 44, 12, 100`.
 
 **If an exercise specifies a different way of sorting, follow the specific instruction.**
 
+---
+
 # Python submission
 
 1. Requirements
 
-This assignment will be graded based on Python 3.6.
+This assignment will be graded based on Python 3.6. 
+
+**Click [HERE](https://github.com/gutyoh/Hadoop_MapReduce_MP4) to visit the GitHub repository with the code of the Python files used below, along with the Dockerfile:**
 
 2. Procedures
 
-Step 1: Pull the Hadoop MapReduce Docker image:
+Step 1: Pull the **[Hadoop MapReduce Assignment Docker image](https://hub.docker.com/repository/docker/hrosch/hadoop_map_reduce/general)**:
 
 <code-block>
 docker pull hrosch/hadoop_map_reduce:latest
@@ -80,6 +84,8 @@ cd home/MP4_HadoopMapReduce_Template/PythonTemplate
 Step 3:
 
 We're ready to run the Python solutions, below you will see the description of each part of the assignment and what Python files it uses to do the Map and Reduce processes.
+
+---
 
 ## Exercise A: Top Titles
 
@@ -117,6 +123,8 @@ de      1684
 list    1948
 </code-block>
 
+---
+
 ## Exercise B: Top Title Statistics
 In this exercise, you will implement an application to find some statistics about the top words used in Wikipedia titles. You will need to use the following files: _TopTitleStatisticsMapper.py_, _TopTitleStatisticsReducer.py_
 
@@ -140,6 +148,8 @@ Min     771
 Max     1948
 Var     136010
 </code-block>
+
+---
 
 ## Exercise C: Orphan Pages
 In this exercise, you will implement an application to find orphan pages in Wikipedia. You will need to use the following files: OrphanPagesMapper.py, OrphanPagesReducer.py
@@ -194,6 +204,8 @@ head C-output_Python/part-00000
 158
 </code-block>
 
+---
+
 ## Exercise D: Top Popular Links
 
 In this exercise, you will implement an application to find the most popular pages on Wikipedia. You will need to use the following files: _LinkCountMapper.py_, _LinkCountReducer.py_, _TopPopularLinksMapper.py_, _TopPopularLinksReducer.py_
@@ -235,6 +247,8 @@ cat D-output_Python/part-00000
 5302153 1532
 88822   1676
 </code-block>
+
+---
 
 ## Exercise E: Popularity League
 
