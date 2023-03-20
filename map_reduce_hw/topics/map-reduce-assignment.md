@@ -214,7 +214,9 @@ If you have finished **Exercise A**, _LinkCountMapper.py_, _LinkCountReducer.py_
 
 Be careful about the output format produced by _LinkCountMapper.py_ and _LinkCountReducer.py_ since their output is supposed to become the input of _TopPopularLinksMapper.py_. So if you use a tab to separate the page ID and its link count, your _TitleCountMapper.py_ should also consume its input in this way.
 
-Your application takes a list of Wikipedia links as input. All pages are represented by their ID numbers. Each line starts with a page ID,  followed by a list of all the pages the ID links to. **The following is a sample line in the input (_same input as in Exercise C_):
+Your application takes a list of Wikipedia links as input. All pages are represented by their ID numbers. Each line starts with a page ID,  followed by a list of all the pages the ID links to. 
+
+**The following is a sample line in the input (_same input as in Exercise C_):**
 
 <code-block>
 2: 3 747213 1664968 1691047 4095634 5535664
