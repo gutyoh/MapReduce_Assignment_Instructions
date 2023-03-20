@@ -70,7 +70,7 @@ Step 1: Pull the **[Hadoop MapReduce Assignment Docker image](https://hub.docker
 docker pull hrosch/hadoop_map_reduce:latest
 </code-block>
 
-#### NOTE: it may take a long time to build the Docker image since it automatically installs Hadoop, you can take a look at the Dockerfile here.
+#### NOTE: it may take a long time to build the Docker image since it automatically installs Hadoop, you can take a look at the Dockerfile [here](https://github.com/gutyoh/Hadoop_MapReduce_MP4/blob/master/Docker/Dockerfile).
 
 Step 2: 
 
